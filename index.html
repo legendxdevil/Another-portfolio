@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nand Kishore Soni - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="portfolio-container">
+    <aside class="profile-image">
+      <img src="/IMG_7909.JPG" alt="My profile-image">
+    </aside>
+    <main class="profile-details">
+      <header>
+        <h1>Nand Kishore Soni</h1>
+        <h2>Full Stack Developer | UI/UX Enthusiast</h2>
+      </header>
+      <p class="summary">
+        <b>Welcome to my professional portfolio!</b> I specialize in building modern,<br>
+         responsive web applications with a focus on performance and beautiful design.
+      </p>
+      <ul class="contact-info">
+        <li><b>Email:</b> nandkishorsoni098765@gmail.com</li>
+        <li><b>Location:</b> Holambi Kalan, Delhi, India</li>
+        <li><b>Phone:</b> +91 7982402954</li>
+      </ul>
+      <div class="buttons">
+        <button id="hireMeBtn">Hire Me</button>
+        <a href="/My Resume.pdf" download class="download-btn">Download Resume</a>
+      </div>
+    </main>
+    <nav class="social-links">
+      <a href="https://x.com/x_nandkishore" target="_blank" title="X"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X"></a>
+      <a href="https://wa.me/7982402954" target="_blank" title="WhatsApp"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp"></a>
+      <a href="https://www.instagram.com/toxic_kishore302/" target="_blank" title="Instagram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram"></a>
+      <a href="https://t.me/@Tm_nandkishore" target="_blank" title="Telegram"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram"></a>
+      <a href="https://www.linkedin.com/in/nand-kishore-soni-036783317/" target="_blank" title="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn"></a>
+      <a href="https://github.com/legendxdevil" target="_blank" title="GitHub"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub"></a>
+    </nav>
+  </div>
+  <!-- Hire Me Popup -->
+  <div id="hireMeModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Hire Me</h2>
+      <form id="hireMeForm" action="https://formspree.io/f/xpwdwykv" method="POST">
+  <!-- Replace YOUR_FORM_ID with your actual Formspree ID -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="desc">Description:</label>
+        <textarea id="desc" name="desc" rows="4" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
