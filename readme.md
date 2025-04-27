@@ -4,7 +4,7 @@
   <tr>
     <td width="40%" align="center" valign="top">
       <!-- Large Profile Image -->
-      <img src="YOUR_IMAGE_URL" alt="Your Name" width="250" style="border-radius:50%; border:6px solid #ff0000;">
+      <img src="https://i.ibb.co/zVPTfS0q/IMG-7909.jpg" alt="Your Name" width="250" style="border-radius:50%; border:6px solid #ff0000;">
     </td>
     <td width="60%" valign="top">
       <!-- Basic Details -->
